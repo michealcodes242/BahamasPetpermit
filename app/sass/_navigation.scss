@@ -50,6 +50,8 @@ body {
 
 .hamburger {
     display:none;
+    position:fixed;
+    right:10px;
     margin-right:5px;
     width:5%;
     height:40px;
@@ -95,10 +97,11 @@ body {
          .nav-menu.active{
              left:0;
          }
-
          .nav-items:hover{
-             border:3px solid $blue;
-         }
+          
+            border:1px solid $blue;
+        }
+        
     }
 
 

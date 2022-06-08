@@ -70,6 +70,8 @@ body {
 
 .hamburger {
   display: none;
+  position: fixed;
+  right: 10px;
   margin-right: 5px;
   width: 5%;
   height: 40px;
@@ -120,7 +122,7 @@ body {
   }
 
   .nav-items:hover {
-    border: 3px solid #5EACB9;
+    border: 1px solid #5EACB9;
   }
 }
 .hero-image {
