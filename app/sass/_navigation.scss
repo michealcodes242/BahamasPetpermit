@@ -114,6 +114,9 @@ body {
  background-image: url("/images/hero-image.jpg");
  background-repeat: no-repeat;
  background-size: cover  ;
+ @include md-up {
+    background-image: url("/images/hero-home.png");
+ }
 
 
     }
@@ -128,12 +131,14 @@ body {
         background-color:$blue;
         border-style: none;
         margin:2rem;
-        
+        @include md-up{
+            width:14%;
+        }
 
     }
 
     .btn-1:hover{
- transition: 0.3s ease-in-out;
+     transition: 0.3s ease-in-out;
      box-shadow: 4px 8px 4px rgba(36, 96, 85, 0.25);
      background-color: #4C8F9A;
     }
